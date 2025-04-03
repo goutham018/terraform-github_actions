@@ -32,8 +32,5 @@ jobs:
       - name: Setup Terraform
         run: terraform init
         
-      - name: Setup Terraform
-        run: terraform init
-      
-
-      
+      - name: Terraform Plan/Destroy
+        run: terraform apply -auto-approve
