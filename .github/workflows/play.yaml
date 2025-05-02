@@ -5,7 +5,7 @@ on:
     inputs:
       name:
         required: false
-        default: "aa"
+        default: 'aa'
         type: choice
         options:
           - bb
