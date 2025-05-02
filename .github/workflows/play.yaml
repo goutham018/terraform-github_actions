@@ -8,5 +8,5 @@ on:
         default: aa
         type: choice
         options:
-        - bb
-        - cc
+          - bb
+          - cc
