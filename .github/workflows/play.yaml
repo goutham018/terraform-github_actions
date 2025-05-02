@@ -8,5 +8,12 @@ on:
         default: 'aa'
         type: choice
         options:
+          - aa
           - bb
           - cc
+jobs:
+  play-with-ga:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GA
+        run: echo "the name is ${{inputs.name}}
