@@ -1,17 +1,12 @@
 name: Play with GA
 
-on:
+on: 
   workflow_dispatch:
     inputs:
-      env:
+      name:
         required: true
-        default: dev
+        default: aa
         type: choice
         options:
-          - dev
-          - prod
-
-jobs:
-  simple-job:
-    runs-on: ubuntu-latest
-    
+        - bb
+        - cc
