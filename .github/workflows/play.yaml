@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GA
-        run: echo "the name is ${{inputs.name}}
+        run: echo "the name is ${{inputs.name}}"
